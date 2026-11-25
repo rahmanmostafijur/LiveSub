@@ -1,0 +1,12 @@
+# Runtime (Windows, Python 3.12, CPU only)
+# faster-whisper is pinned exactly: transcribe.py uses some of its internals.
+faster-whisper==1.2.1
+numpy>=2.0
+PyAudioWPatch==0.2.12.9
+sounddevice>=0.5
+pystray>=0.19       # tray icon (optional: the app works without it)
+pillow>=10          # tray icon image
+
+# Development, tests and packaging
+pytest>=8.0
+pyinstaller>=6.0

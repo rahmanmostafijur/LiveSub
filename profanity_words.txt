@@ -1,0 +1,41 @@
+# Words masked in subtitles and logs (one per line, case-insensitive).
+# Common endings (-s, -ed, -er, -ing) are matched automatically.
+# Edit freely, or point "profanity.words_file" in config.json at your own list.
+
+# profanity
+fuck
+motherfucker
+shit
+shitty
+bullshit
+bitch
+bastard
+asshole
+dick
+dickhead
+cunt
+cock
+cocksucker
+pussy
+whore
+slut
+goddamn
+wanker
+twat
+prick
+
+# slurs
+nigger
+nigga
+faggot
+fag
+retard
+chink
+spic
+kike
+wetback
+tranny
+dyke
+gook
+paki
+coon

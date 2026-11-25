@@ -1,0 +1,26 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# Whisper models (GBs, downloaded on first use) and optional local ffmpeg
+models/
+ffmpeg/
+
+# Build output (recreate with build.py)
+build/
+dist/
+
+# Runtime files and test recordings
+*.log
+capture_test.wav
+segments_test/
+
+# Offline subtitle work-in-progress folders and outputs
+*.partial/
+*.subbed.mp4
+
+# Editor / tool state
+.claude/
